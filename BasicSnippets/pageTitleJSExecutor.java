@@ -10,6 +10,7 @@ public class pageTitleJSExecutor {
 public static void main(String[] args) {
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
+	driver.get("https://www.google.com");
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	js.executeScript("return document.title").toString();
 }
