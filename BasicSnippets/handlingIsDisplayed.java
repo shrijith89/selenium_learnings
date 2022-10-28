@@ -1,7 +1,7 @@
-//This snippet will help in handling is displayed in a if else condition
+//This snippet will help in handling is displayed in a try catch block
 
 
-public void compeletion() throws InterruptedException {
+public void basic() throws InterruptedException {
 		try {
 		//if condition goes here
 		}
