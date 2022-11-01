@@ -5,8 +5,6 @@
 * Get the copied data from the clipboard
 *
 */
-
-
 public void getDataFromClipBoard(){
 	Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 	Transferable contents = clipboard.getContents(null);
